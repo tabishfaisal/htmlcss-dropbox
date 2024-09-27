@@ -10,7 +10,7 @@ ul,ol{
 }
 /*--Css reset--*/
 .container-head{
-    max-width: 1900px;
+    max-width: 1200px;
     margin: 0% auto;
 }
 .row{
@@ -31,22 +31,129 @@ ul,ol{
     color: grey;
 }
 .button{
-    background-color: skyblue;
+    background-color:#0061FF;
     width: 50px;
     padding-left: 15px;
     padding-right: 15px;
     color: white;
     text-align: center;
 }
+
+
 /*--main section--*/
-.contianer-main{
-    max-width: 1200px;
+.hero{
+    background: #B4D0E7;
+}
+.container-main{
+    max-width: 900px;
     margin: 0 auto;
 }
 .row-main{
     display: flex;
-    flex-wrap: wrap;
 }
-.row-main .column-main{
-    align-items: center;
+
+.col-12 {
+    width: 100%;
+    padding: 20px;
+    font-size: xx-large;
+}
+.title{
+    text-align: center;
+}
+
+.col-8 {
+    width: calc(100% / 12 * 8);
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+
+.w-100 {
+    width: 100%;
+}
+.btn{
+    background-color:  #0061FF;
+    color: white;
+    margin-top: 25px;
+    padding: 5px;
+    text-align: center;
+}
+.fa-arrow{
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+/*--section plan--*/
+.container-small{
+    max-width: 800px;
+    margin: 0% auto;
+    display: flex;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.col-10{
+    max-width: 100%;
+    padding: 15px;
+}
+.col-11{
+    max-width: 100%;
+}
+.fatturazione{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+/*--section plan--*/
+
+.row-plan{
+    max-width: 100%;
+    display: flex;
+    gap: 15px;
+}
+.col-a{
+    max-width: calc(100% /3);
+    border: 1px solid black;
+}
+.col-b{
+    max-width: calc(100% /3);
+    border: 1px solid black;
+}
+.col-c{
+    max-width: calc(100% /3);
+    border: 1px solid black;
+}
+.text{
+    font-size: 14px;
+    border: 1px solid black;
+    text-align: center;
+}
+.fa-solid{
+    font-size: 12px;
+    margin: 0%;
+}
+.bn{
+    background-color: #0061FF;
+    color: white;
+}
+.fa-check{
+    color: #0061FF;
+}
+.profession-marg{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.user-marg{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.link-marg{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.h-marg{
+    margin-bottom: 20px;
+    padding: 20px;
 }
