@@ -112,22 +112,26 @@ ul,ol{
     max-width: 100%;
     display: flex;
     gap: 15px;
+    margin-bottom: 20px;
 }
 .col-a{
     max-width: calc(100% /3);
     border: 1px solid black;
+    max-height: 750px;
 }
 .col-b{
     max-width: calc(100% /3);
     border: 1px solid black;
+    max-height: 750px;
 }
 .col-c{
     max-width: calc(100% /3);
     border: 1px solid black;
+    max-height: 750px;
 }
 .text{
     font-size: 14px;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     text-align: center;
 }
 .fa-solid{
@@ -137,6 +141,8 @@ ul,ol{
 .bn{
     background-color: #0061FF;
     color: white;
+    width: 100%;
+    padding: 5px;
 }
 .fa-check{
     color: #0061FF;
@@ -156,4 +162,82 @@ ul,ol{
 .h-marg{
     margin-bottom: 20px;
     padding: 20px;
+}
+.text-2{
+    font-size: 14px;
+    border: 1px solid black;
+    text-align: center;
+}
+.row-plan2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+.col-d{
+    width:100%;
+    border-bottom: 1px solid black;
+}
+.col-e{
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.col-e3{
+    max-width: 100%;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+.button{
+    background-color: #0061FF;
+    color: white;
+}
+.gap-text{
+    display: flex;
+    justify-content: space-between;
+}
+/*--section photo with text--*/
+.row-partner{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.col-foto{
+    width: calc(100% /2);
+}
+.col-description{
+    width: calc(100% /3);
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.pt-button{
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px;
+}
+.partner-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+.
+.row-dropbox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.dropbox-head{
+    width: 100%;
+}
+.dropbox-1{
+    width: calc(100% /3);
 }
